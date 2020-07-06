@@ -1,9 +1,6 @@
-import * as jestDOM from '@testing-library/jest-dom'
 import React from 'react'
 import {render, fireEvent} from '@testing-library/react'
 import Calculator from '../calculator'
-
-expect.extend(jestDOM)
 
 test('renders', () => {
   render(<Calculator />)
