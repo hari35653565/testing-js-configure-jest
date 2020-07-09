@@ -21,6 +21,12 @@ module.exports = {
       branches: 30,
       functions: 30,
       lines: 30,
+    },
+    './src/shared/utils.js': {
+      statements: 100,
+      branches: 80,
+      functions: 100,
+      lines: 100
     }
   }
 }
