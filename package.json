@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test-coverage": "jest --coverage --watchAll --testResultsProcessor jest-sonar-reporter",
     "dev": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production",
     "postbuild": "cp ./public/index.html ./dist/index.html",
@@ -35,6 +36,7 @@
     "file-loader": "^5.0.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
+    "jest-sonar-reporter": "^2.0.0",
     "jest-emotion": "^10.0.17",
     "prettier": "^1.19.1",
     "prop-types": "^15.7.2",
